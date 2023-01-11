@@ -25,9 +25,9 @@ From our Ookla 5G Map dataset we found that the most 5G consumers across the U.S
 From our FCC dataset we fit the linear regression to predict correlation between download and upload speeds and understand the relationship between maximum upload and download speeds. Independent : download, dependent: upload speed. Mean absolute error is very low so yes it is overfitting, but this serves more so as intuition to understand FCC data.
 
 Key findings: 
--When it comes to 5G services, consumers prefer T-Mobile based on the most recent weekly data 
--From average and download and upload speeds, high network speeds are not equally distributed across America
--It is possible that more R&D spending on behalf of telecommunications companies will close this inequality gap
+- When it comes to 5G services, consumers prefer T-Mobile based on the most recent weekly data 
+- From average and download and upload speeds, high network speeds are not equally distributed across America
+- It is possible that more R&D spending on behalf of telecommunications companies will close this inequality gap
 
 Exploratory Data Analysis(EDA):
 <img width="807" alt="Screen Shot 2023-01-11 at 4 59 15 PM" src="https://user-images.githubusercontent.com/78544539/211926824-459a5643-95a2-42b6-8037-d039d5ac1d1f.png">
