@@ -16,6 +16,7 @@ From FCC database we found of interest their Fixed Broadband Deployment Data col
 
 The Ookla open source database also provided a dataset containing the average download, upload, and latency speeds. Also on the Ookla website we found an source of data that would highly relevant to our project since it showed the specific network operator providing service (from Verizon to U.S. Cellular), the city name, and coordinates. 
 > Approximately 8,000 pages of code when we tried to get the entire JSONstring off the website, that is, where the data is stored. So we used Beautiful Soup library to loop over 122,000+ targets in the JSON object, removed the cities that were not part of the 50 states in the U.S., separated the U.S. city names and states into new columns, and created a function using a GeoPy library to convert the latitude and longitude coordinates to zip codes.
+<img width="980" alt="Screen Shot 2023-01-11 at 4 58 52 PM" src="https://user-images.githubusercontent.com/78544539/211926751-754e116f-5e4a-411c-ba2e-d6ebbc4ba8e9.png">
 
 From our Ookla 5G Map dataset we found that the most 5G consumers across the U.S. were using AT&T Mobility, followed by Verizon, and then by T-Mobile.
 
@@ -25,4 +26,7 @@ Key findings:
 -When it comes to 5G services, consumers prefer T-Mobile based on the most recent weekly data 
 -From average and download and upload speeds, high network speeds are not equally distributed across America
 -It is possible that more R&D spending on behalf of telecommunications companies will close this inequality gap
+
+Exploratory Data Analysis(EDA):
+<img width="807" alt="Screen Shot 2023-01-11 at 4 59 15 PM" src="https://user-images.githubusercontent.com/78544539/211926824-459a5643-95a2-42b6-8037-d039d5ac1d1f.png">
 
