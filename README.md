@@ -34,3 +34,23 @@ Exploratory Data Analysis(EDA):
 Linear Regression Model: 
 <img width="439" alt="Screen Shot 2023-01-11 at 5 28 34 PM" src="https://user-images.githubusercontent.com/78544539/211931566-a98528ff-71af-498d-a8a2-266641a8b03b.png">
 
+What We Learned:
+- Unsupervised learning
+- Not covered in ML Foundations summer course
+- Working with geographic data
+- Web-scraping
+- New Python libraries
+- Project & team management
+
+More Steps:
+- Modeling
+- Elbow method
+- Exploring different models
+- More data visualization
+- Visualizing our different dimensions
+- Explore different datasets
+- American Community Survey, U.S Census
+- Analyze additional features
+- Economic characteristics (work from home)
+
+
