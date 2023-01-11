@@ -13,10 +13,12 @@ What kind of markets to focus on (where competitors and verizon have already rol
 So, we narrowed down our original problem statement to “Determine the top 10 regions we would recommend to Verizon to promote 5G products”.
 
 From FCC database we found of interest their Fixed Broadband Deployment Data collected June and December of each year. We chose the most recent one available, June 2021, so that our data would be more current. The maximum advertised download and upload speeds from this dataset would inform us on the type of coverage customers are receiving in this area. If there were customers in a certain area that were receiving low download and upload speeds then we could make the case that they would be incentivized to upgrade to 5G.
+<img width="1033" alt="Screen Shot 2023-01-11 at 5 32 43 PM" src="https://user-images.githubusercontent.com/78544539/211932199-694442e7-92f2-4c2c-8dda-333221efb617.png">
 
 The Ookla open source database also provided a dataset containing the average download, upload, and latency speeds. Also on the Ookla website we found an source of data that would highly relevant to our project since it showed the specific network operator providing service (from Verizon to U.S. Cellular), the city name, and coordinates. 
 > Approximately 8,000 pages of code when we tried to get the entire JSONstring off the website, that is, where the data is stored. So we used Beautiful Soup library to loop over 122,000+ targets in the JSON object, removed the cities that were not part of the 50 states in the U.S., separated the U.S. city names and states into new columns, and created a function using a GeoPy library to convert the latitude and longitude coordinates to zip codes.
-<img width="980" alt="Screen Shot 2023-01-11 at 4 58 52 PM" src="https://user-images.githubusercontent.com/78544539/211926751-754e116f-5e4a-411c-ba2e-d6ebbc4ba8e9.png">
+
+<img width="1018" alt="Screen Shot 2023-01-11 at 5 33 40 PM" src="https://user-images.githubusercontent.com/78544539/211932309-41041d1c-ed65-4ade-8980-e9882de47398.png">
 
 From our Ookla 5G Map dataset we found that the most 5G consumers across the U.S. were using AT&T Mobility, followed by Verizon, and then by T-Mobile.
 
